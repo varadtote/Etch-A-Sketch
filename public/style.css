@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(146, 161, 161); */
+}
+
+/* navbar */
+.navbar {
+    /* background-color: red; */
+    height: 8vh;
+    width: 100vw;
+}
+
+/* Main  */
+.main {
+    /* background-color: palegreen; */
+    height: 87vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Options Container  */
+.options {
+    background-color: orchid;
+    /* margin-left: -90px; */
+    height: 87vh;
+    width: 30vw;
+    margin: 20px;
+}
+
+.options button {
+    cursor: pointer;
+
+}
+
+/* Sketch Container  */
+.sketch-container {
+    background-color: rgb(88, 21, 205);
+    height: 87vh;
+    width: 70vw;
+    margin: 20px;
+    display: flex;
+}
+
+
+/* Footer  */
+.footer {
+    background-color: orange;
+    height: 5vh;
+    width: 100vw;
+}
